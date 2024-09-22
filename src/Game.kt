@@ -9,6 +9,7 @@ fun generateRandomNumber(lower: Int, upper: Int): Int {
     return Random.nextInt(lower, upper + 1)
 }
 
+
 fun playGame(randomNum: Int) {
     val incorrectGuessList = mutableListOf<Int>()
     var incorrectGuesses = 0
